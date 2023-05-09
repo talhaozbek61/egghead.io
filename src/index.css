@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply dark:text-gray-200 dark:bg-gray-900
+}
+
+header {
+    @apply bg-[url('assets/hero-bg-dark.e7009c42.png')] bg-no-repeat bg-cover bg-center
+}

@@ -137,8 +137,8 @@ const Navbar = () => {
                                 <div className="px-5 pt-5 text-xs font-medium opacity-80 tracking-wide">TOPICS</div>
                                 <div className="grid grid-cols-2 py-2 lg:grid-cols-4 sm:grid-cols-3">
                                 {dropdown_menu.map( (d) => (
-                                    <Menu.Item>
-                                    <a href="/" key={d.id} className='px-5 py-3 flex text-sm hover:bg-gray-100 dark:hover:bg-gray-900 dark:hover:bg-opacity-40'>
+                                    <Menu.Item key={d.id}>
+                                    <a href="/" className='px-5 py-3 flex text-sm hover:bg-gray-100 dark:hover:bg-gray-900 dark:hover:bg-opacity-40'>
                                         <img src={d.img} alt={d.name} className='w-6 h-6 flex-initial' />
                                         <span className='pl-2 font-medium text-gray-700 dark:text-white translate-y-[2px] flex-inital'>
                                             {d.name}
