@@ -21,7 +21,7 @@ const Main = () => {
                 <hr className="bg-none border-none py-8" />
                 <div className="pb-8">
                 <p className="font-semibold">You can...</p>
-                <ul class="list-none">
+                <ul className="list-none">
                     <li className="flex items-center">
                         <img src={dissapointed} alt="dissapointed" className="w-6 flex-initial mr-3 shrink-0" />
                         Cobble together hours-long videos, docs, tutorials, and forum posts
@@ -72,7 +72,7 @@ const Main = () => {
                 <hr className="bg-none border-none py-8" />
                 <div className="dark:bg-gray-800 bg-gray-50 md:-mx-10 sm:mx-0 -mx-5 sm:rounded-md pb-8 sm:p-10 p-5">
                 <p className="font-medium pb-3">When you join egghead you'll get:</p>
-                <ul class="list-none">
+                <ul className="list-none">
                     <li className="flex items-center">
                         <img src={hugging} alt="hugging" className="w-6 h-6 flex-initial mr-3 shrink-0" />
                         On-demand instant access to hundreds of courses by world-class professional instructors

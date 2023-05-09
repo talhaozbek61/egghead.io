@@ -9,6 +9,12 @@ body {
 header {
     @apply bg-[url('assets/hero-bg-dark.e7009c42.png')] bg-no-repeat bg-cover bg-center
 }
-.list-none li {
+main .list-none li {
     @apply pt-3
+}
+footer .list-none li {
+    @apply py-1 text-base md:text-sm
+}
+footer .list-none li a:hover {
+    @apply text-blue-600
 }
